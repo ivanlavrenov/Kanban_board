@@ -10,8 +10,6 @@ export default function Modal( props ) {
 
 const taskText = localStorage.getItem( 'cardText' );
 
-
-
 		return (
 			<div className="modal-screen">
 			  	<div className="modal-block">

@@ -4,7 +4,6 @@ import AddCard from '../AddCard/AddCard.js';
 import styles from './List.css';
 
 
-
 export default class List extends React.Component {
   constructor( props ) {
     super( props );

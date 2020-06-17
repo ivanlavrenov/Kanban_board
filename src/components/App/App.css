@@ -19,7 +19,6 @@ body{
 	list-style-type: none;
 }
 
-
 .list{
 	padding-left: 0px;
 	padding-right: 12px;
@@ -89,7 +88,6 @@ li{
 	overflow: hidden;
 	color: #212934;
 }	
-
 
 #demo-card{
 	display: none;

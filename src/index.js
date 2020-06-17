@@ -6,7 +6,6 @@ import { HashRouter } from 'react-router-dom';
 import Modal from './components/Modal/Modal';
 
 
-
 ReactDOM.render(
 	<HashRouter> 
 		<Route path="/" component={ App }/>
