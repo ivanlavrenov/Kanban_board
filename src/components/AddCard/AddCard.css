@@ -1,0 +1,64 @@
+.img{
+	 background: url(../../img/cross.svg);
+	 width: 14px;
+	 height: 14px;
+	 position: relative;
+	 margin-right: 13px;
+	 margin-left: 12px;
+}
+
+.main-button{
+	margin-top: 12px;
+	display: flex;
+	align-items: center;
+	font-size: 15px;
+	line-height: 18px;
+	color: #626262;
+	width: 256px;
+	height: 32px;
+	margin-bottom: 8px;
+	cursor: pointer;
+}
+
+.main-button:hover{
+	background-color: #C4C4C4;
+}
+
+.buttons-block{
+	width: 266px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 8px;
+}
+
+.add-button{
+	width: 160px;
+	height: 32px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+	color: #FFFFFF;
+	background: #0C7CD5;
+	border-radius: 3px;
+	border: none;
+}
+
+.cancel-button{
+	display: flex;
+	align-items: center;
+	background: #D4D4D4;
+	border: none;
+}
+
+.close-img{
+	background: url(../../img/cross.svg);
+	width: 14px;
+	height: 14px;
+	position: relative;
+	margin-right: 8px;
+	line-height: 18px;
+	transform: rotate(135deg);
+	font-size: 15px;
+}
+
