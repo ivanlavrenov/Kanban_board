@@ -1,10 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 import List from '../List/List.js';
 
 
-
-export default class Board extends Component {
+export default class Board extends React.Component {
   constructor( props ) {
 
     super( props );

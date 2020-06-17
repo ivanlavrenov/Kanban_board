@@ -7,9 +7,9 @@ import Modal from './components/Modal/Modal';
 
 
 ReactDOM.render(
-	<HashRouter> 
-		<Route path="/" component={ App }/>
-		<Route path="/modal" component={ Modal }/>
-	</HashRouter>,
+		<HashRouter basename="/app"> 
+			<Route path="/" component={ App }/>
+			<Route path="/modal" component={ Modal }/>
+		</HashRouter>,
 
  document.getElementById('root'));
