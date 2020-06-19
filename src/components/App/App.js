@@ -123,18 +123,20 @@ render() {
     </li>
   ));
    
+
   return (
+    <main>
       <HashRouter basename="/app"> 
          <Route path="/modal" component={ Modal }/>
-         <main>
+         <header>
            <div className="board">
-              <ul className="lists">
-                { lists }
-              </ul>
-            </div>
-         </main>
+            <ul className="lists">
+              { lists }
+            </ul>
+           </div>
+         </header>
       </HashRouter>
-      
+     </main> 
   );
   }
 }
