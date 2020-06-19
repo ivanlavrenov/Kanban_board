@@ -1,6 +1,9 @@
 import React from 'react';
 import './App.css';
 import List from '../List/List.js';
+import { Route } from 'react-router';
+import { HashRouter } from 'react-router-dom';
+import Modal from '../Modal/Modal';
 
 
 export default class Board extends React.Component {
@@ -121,11 +124,14 @@ render() {
   ));
    
   return (
-    <div className="board">
-      <ul className="lists">
-        { lists }
-      </ul>
-    </div>
+      <HashRouter basename="/app"> 
+        <Route path="/modal" component={ Modal }/>
+          <div className="board">
+            <ul className="lists">
+              { lists }
+            </ul>
+        </div>
+    </HashRouter>
   );
   }
 }
