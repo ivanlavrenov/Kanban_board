@@ -124,7 +124,7 @@ render() {
   ));
    
   return (
-      <HashRouter basename="/app"> 
+      <HashRouter basename="/"> 
       <Route path="/modal" component={ Modal }/>
         <div className="board">
           <ul className="lists">
