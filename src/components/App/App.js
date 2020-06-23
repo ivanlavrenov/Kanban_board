@@ -1,8 +1,7 @@
 import React from 'react';
 import './App.css';
 import List from '../List/List.js';
-import { Route } from 'react-router';
-import { HashRouter } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Modal from '../Modal/Modal';
 
 
@@ -124,14 +123,14 @@ render() {
   ));
    
   return (
-      <HashRouter basename="/"> 
+    <Router basename="/"> 
       <Route path="/modal" component={ Modal }/>
         <div className="board">
           <ul className="lists">
             { lists }
           </ul>
         </div>
-    </HashRouter>
+    </Router>
   );
   }
 }
