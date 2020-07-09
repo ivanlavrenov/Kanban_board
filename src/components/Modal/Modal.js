@@ -31,4 +31,3 @@ const taskText = localStorage.getItem( 'cardText' );
 		  	</div>
 		  );
 	}
-
