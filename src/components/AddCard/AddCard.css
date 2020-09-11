@@ -49,6 +49,7 @@
 	align-items: center;
 	background: #D4D4D4;
 	border: none;
+	z-index: 1;
 }
 
 .close-img{
@@ -61,3 +62,4 @@
 	transform: rotate(135deg);
 	font-size: 15px;
 }
+

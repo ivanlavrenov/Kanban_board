@@ -22,12 +22,12 @@ const taskText = localStorage.getItem( 'cardText' );
 				  		</NavLink>
 				  	</div>
 			  		<div className="modal-block-text">
-			  			<a className="modal-text">Описание</a>
-			  		</div> 
+			  			<textarea className="modal-text" placeholder="Описание"/>
+			  		</div>
 			  		<button className="modal-button">
 			  			<a className="modal-button-text">Сохранить</a>
 			  		</button>
-			  	</div> 
+			  	</div>
 		  	</div>
 		  );
 	}
